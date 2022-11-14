@@ -1,16 +1,22 @@
+body {
+    background-color: rgb(97, 192, 233);
+}
 .left-container {
-    max-width: 650px;
-    margin: auto;
-    background-color: aqua;
+    background-color: white;
     padding: 30px;
+    border-radius: 10px 0 0 10px;
     
+}
+span {
+    text-decoration: underline;
+    color: white;
 }
 #left-forms {
 
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
-    /* width: 200px; */
+    max-width: 650px;
+    margin: auto;
 }
 input {
     margin: 10px 0;
@@ -23,11 +29,36 @@ input {
 .left-container h1 {
     color: blue;
 }
+.left-container input {
+    padding: 10px;
+    border: none;
+}
 
+/* RIGHT SIDE STARTS HERE */
 .right-container {
     max-width: 650px;
     margin: auto;
     background-color: rgb(37, 32, 196);
     padding: 30px;
-    
+    border-radius: 0 10px 10px 0;
+}
+.zip-place-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.code-phone-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.right-container h1 {
+    color: white;
+}
+.right-container input {
+    padding: 10px;
+    border:none;
+    background-color: rgb(37, 32, 196);
+}
+.right-container input::placeholder {
+    color: white;
+    background-color: rgb(37, 32, 196);
 }

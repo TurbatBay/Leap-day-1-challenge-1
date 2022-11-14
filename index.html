@@ -20,19 +20,49 @@
             </div>
 
             <input type="email" name="email" placeholder="Email">
+            <hr>
             <input type="date" name="date">
+            <hr>
             <input type="text" name="company" placeholder="Company">
+            <hr>
             <select name="position">
                 <option>Position</option>
                 <option>CEO</option>
                 <option>Worker</option>
                 <option>Intern</option>
             </select>
+            <hr>
         </div>
-        <div class="right-container">
 
-            <input type="text" name="street" id="">
-            <input type="text" name="additional" id="">
+
+        <!-- right side starts here -->
+
+        <div class="right-container">
+            <h1>Contact details</h1>
+            <input type="text" name="street" id="" placeholder="Street">
+            <input type="text" name="additional" id="" placeholder="Additional Information">
+            <div class="zip-place-flex">
+                <input type="number" name="zip-code" placeholder="Zipcode">
+                <select name="places" >
+                    <option value="">Mongolia</option>
+                    <option value="">Uganda</option>
+                    <option value="">United Kingdom</option>
+                    <option value="">USA</option>
+                </select>
+            </div>
+            <select name="country" >
+                <option value="">Mongolia</option>
+                <option value="">Uganda</option>
+                <option value="">United Kingdom</option>
+                <option value="">USA</option>
+            </select>
+            <div class="code-phone-flex">
+                <input type="number" placeholder="Code">
+                <input type="number" placeholder="Phone Number">
+            </div>
+            <input type="checkbox" name="terms">
+            <label for="terms">I do accept the <span>Terms and Conditions</span> of your site</label>
+            <button >Register Badge</button>
         </div>
 
     </form>
