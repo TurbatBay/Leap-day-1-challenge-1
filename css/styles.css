@@ -1,0 +1,33 @@
+.left-container {
+    max-width: 650px;
+    margin: auto;
+    background-color: aqua;
+    padding: 30px;
+    
+}
+#left-forms {
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* width: 200px; */
+}
+input {
+    margin: 10px 0;
+    display: flex;
+}
+.names-flex {
+    display: flex;
+    
+}
+.left-container h1 {
+    color: blue;
+}
+
+.right-container {
+    max-width: 650px;
+    margin: auto;
+    background-color: rgb(37, 32, 196);
+    padding: 30px;
+    
+}
