@@ -62,3 +62,22 @@ input {
     color: white;
     background-color: rgb(37, 32, 196);
 }
+.countries {
+    background-color: rgb(37, 32, 196);
+    border: none;
+    color: white;
+}
+.right-container label {
+    color:white
+}
+.accept-terms-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.accept-terms-flex input {
+    width: 10%;
+}
+.accept-terms-flex label {
+    width: 86%;
+}
